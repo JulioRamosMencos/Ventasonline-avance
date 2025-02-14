@@ -1,7 +1,7 @@
 import { body, param } from "express-validator";
 import { handleErrors } from "./handle_errors.js";
 import { validarCampos } from "./validate-fields.js";
-import { categoryExists } from "../helpers/db-validators.js"; // Assuming you have this helper
+import { categoryExists } from "../helpers/db-validators.js"; 
 
 
 export const createCategoryValidator = [

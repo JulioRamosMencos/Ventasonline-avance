@@ -1,4 +1,4 @@
-import Category from "./category.model.js"; // Assuming this is where your Category model is
+import Category from "./category.model.js"; 
 import { validationResult } from "express-validator";
 
 
