@@ -1,7 +1,7 @@
 import Category from "./category.model.js"; // Assuming this is where your Category model is
 import { validationResult } from "express-validator";
 
-// Create a new category
+
 export const createCategory = async (req, res) => {
     try {
         const errors = validationResult(req);
@@ -41,7 +41,7 @@ export const createCategory = async (req, res) => {
     }
 };
 
-// Get all categories
+
 export const getCategories = async (req, res) => {
     try {
         const { limite = 5, desde = 0 } = req.query;
@@ -68,7 +68,7 @@ export const getCategories = async (req, res) => {
     }
 };
 
-// Get a single category by ID
+
 export const getCategoryById = async (req, res) => {
     try {
         const { cid } = req.params;
@@ -94,7 +94,7 @@ export const getCategoryById = async (req, res) => {
     }
 };
 
-// Update category by ID
+
 export const updateCategory = async (req, res) => {
     try {
         const { cid } = req.params;
@@ -123,7 +123,7 @@ export const updateCategory = async (req, res) => {
     }
 };
 
-// Delete category by ID (soft delete by setting status to false)
+
 export const deleteCategory = async (req, res) => {
     try {
         const { cid } = req.params;
