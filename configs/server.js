@@ -36,7 +36,7 @@ export const initServer = () => {
         middlewares(app);
         conectarDB();
         routes(app);
-        const port = process.env.PORT || 3001; // Asegúrate de que el puerto sea 3001
+        const port = process.env.PORT || 3001; 
         app.listen(port, () => {
             console.log(`Server running on port ${port} matutina`);
         });
