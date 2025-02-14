@@ -11,7 +11,7 @@ import {
     getCategoryByIdValidator,
     updateCategoryValidator,
     deleteCategoryValidator,
-} from "../middlewares/category-validators.js"; // Assuming you have these validators
+} from "../middlewares/category-validators.js"; 
 
 const router = Router();
 
