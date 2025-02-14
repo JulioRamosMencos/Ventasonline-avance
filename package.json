@@ -1,5 +1,5 @@
 {
-    "name": "avanceproyectobimestral",
+    "name": "comprasonline",
     "version": "1.0.0",
     "main": "index.js",
     "scripts": {
@@ -13,7 +13,6 @@
     "type": "module",
     "description": " Api para ventas online",
     "dependencies": {
-      "adoptionsystem": "file:",
       "argon2": "^0.41.1",
       "bcrypt": "^5.1.1",
       "cors": "^2.8.5",
